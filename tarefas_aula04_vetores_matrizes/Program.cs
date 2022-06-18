@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Aula04
+namespace tarefas_aula04_vetores_matrizes
 {
     class Program
     {
@@ -16,7 +16,8 @@ namespace Aula04
             Task03();
             Task04();
             Task05();
-
+            
+           
 
         }
 
@@ -348,10 +349,10 @@ namespace Aula04
 
 
 
-                //passando matriz, jogador e posição para modificaMatriz 
-                modificaMatriz(choiceplayer01, player1, itemMatriz);
+                //passando matriz, jogador e posição para ModificaMatriz 
+                ModificaMatriz(choiceplayer01, player1, itemMatriz);
                 //ganhador01 recebe verificaGanhador com matriz como atributo
-                string ganhador01 = verificaGanhador(itemMatriz);
+                string ganhador01 = VerificaGanhador(itemMatriz);
 
                 if (ganhador01 == player1)
                 {
@@ -436,8 +437,8 @@ namespace Aula04
                 choiceplayer02 = int.Parse(auxiliar);
 
 
-                modificaMatriz(choiceplayer02, player2, itemMatriz);
-                string ganhador02 = verificaGanhador(itemMatriz);
+                ModificaMatriz(choiceplayer02, player2, itemMatriz);
+                string ganhador02 = VerificaGanhador(itemMatriz);
 
                 if (ganhador02 == player2)
                 {
@@ -490,7 +491,7 @@ namespace Aula04
             }
         }
 
-        static string verificaGanhador(string[,] itemMatriz)
+        static string VerificaGanhador(string[,] itemMatriz)
         {
             // Se linhaMatriz na posição 0,1,2 são iguais, retorna seu valor 
             if (itemMatriz[0, 0] == itemMatriz[0, 1] && itemMatriz[0, 1] == itemMatriz[0, 2])
@@ -557,7 +558,7 @@ namespace Aula04
         }
 
 
-        static void modificaMatriz(int choiceplayer, string player, string[,] itemMatriz)
+        static void ModificaMatriz(int choiceplayer, string player, string[,] itemMatriz)
         {
             //verifica se o número digitado referente a posição é válido
 
@@ -607,7 +608,7 @@ namespace Aula04
                     // recebe nova posição
                     int novaPosicao = int.Parse(Console.ReadLine());
                     //Função recursiva com o novo atributo de posição
-                    modificaMatriz(novaPosicao, player, itemMatriz);
+                    ModificaMatriz(novaPosicao, player, itemMatriz);
                 }
             }
             else

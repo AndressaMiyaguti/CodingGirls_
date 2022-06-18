@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace aula02
+namespace tarefas_aula02_operadores
 {
     class Program
     {

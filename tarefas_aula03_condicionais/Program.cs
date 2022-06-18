@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace aula_03
+namespace tarefas_aula03_condicionais
 {
     class Program
     {

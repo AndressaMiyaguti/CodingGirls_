@@ -3,19 +3,31 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+<<<<<<< HEAD
+
+using System.Globalization;
+
+namespace tarefas_aula05_introducao_OOP
+=======
 using tarefas_aula05_introducao_OOP;
 using System.Globalization;
 
 namespace aula05
+>>>>>>> ca34c582ca30e3c1d24f3737b31a7354cc8c6c1d
 {
     internal class Program
     {
         static void Main(string[] args)
         {
+<<<<<<< HEAD
+            //Task01();
+              Task02();
+=======
 
 
             //Task01();
             
+>>>>>>> ca34c582ca30e3c1d24f3737b31a7354cc8c6c1d
 
 
         }
@@ -34,8 +46,13 @@ namespace aula05
 
             //variável para armazenar os atributos;
             Alunos dadosAlunos = new Alunos();
+<<<<<<< HEAD
+
+
+=======
            
             
+>>>>>>> ca34c582ca30e3c1d24f3737b31a7354cc8c6c1d
             Console.Write(" Nome: ");
             dadosAlunos.Nome = Console.ReadLine().ToUpper();
 
@@ -51,6 +68,16 @@ namespace aula05
             Console.Write(" Nota do projeto : ");
             dadosAlunos.Nota_trabalho = double.Parse(Console.ReadLine());
 
+<<<<<<< HEAD
+            Console.WriteLine(" Dados do aluno: " + dadosAlunos);
+            Console.WriteLine(dadosAlunos.Calculo_para_Aprov_Reprov());
+
+            Console.ReadLine();
+
+        }
+
+        static void Task02() {
+=======
             Console.WriteLine(" Dados do aluno: " + dadosAlunos );
             Console.WriteLine( dadosAlunos.Calculo_para_Aprov_Reprov());
 
@@ -60,6 +87,7 @@ namespace aula05
 
 
 
+>>>>>>> ca34c582ca30e3c1d24f3737b31a7354cc8c6c1d
 
             /* 2 ) Escreva uma classe em que cada objeto representa um vôo que acontece em determinada data 
                  e em determinado horário. Cada vôo possui no máximo 100 passageiros, e a classe permite 
@@ -73,8 +101,32 @@ namespace aula05
                  - Ocupa: ocupa determinada cadeira do vôo, cujo número é recebido como parâmetro. 
                    Caso a cadeira esteja ocupada exibe uma mensagem, caso esteja vazia, reserva e exibe uma 
                    mensagem de confirmação;
+<<<<<<< HEAD
+                 - Ver horário: Imprime a data e o horário do vôo.*/
+
+
+            Voos voos = new Voos();
+
+            Console.WriteLine("\n\n_____________________________________ Faça sua reserva _____________________________________ ");
+
+            Console.WriteLine();
+
+            Console.Write("\n Insira seu nome: \n\n");
+            voos.Nome = Console.ReadLine();
+
+            Console.Write("\n Local de Destino: \n\n");
+            voos.Destino = Console.ReadLine();
+
+            Console.Write("\n Período: \n [ 1 ] MANHÃ\n [ 2 ] TARDE\n [ 3 ] NOITE\n\n");
+            voos.VerificaVoo(int.Parse(Console.ReadLine()));
+
+
+            Console.ReadLine();
+            /*
+=======
                  - Ver horário: Imprime a data e o horário do vôo.
 
+>>>>>>> ca34c582ca30e3c1d24f3737b31a7354cc8c6c1d
              3 )  Crie uma classe Calculadora, que possui como métodos a multiplicação, divisão, subtração e 
                  - soma de dois valores e exibe para o usuário.*/
 

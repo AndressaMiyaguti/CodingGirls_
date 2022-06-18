@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace aula01
+namespace tarefas_aula01_fundamentos
 {
     class Program
     {
