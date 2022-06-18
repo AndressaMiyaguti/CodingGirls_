@@ -3,31 +3,19 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-<<<<<<< HEAD
-
-using System.Globalization;
 
 namespace tarefas_aula05_introducao_OOP
-=======
-using tarefas_aula05_introducao_OOP;
-using System.Globalization;
-
-namespace aula05
->>>>>>> ca34c582ca30e3c1d24f3737b31a7354cc8c6c1d
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-<<<<<<< HEAD
+
             //Task01();
               Task02();
-=======
 
-
-            //Task01();
             
->>>>>>> ca34c582ca30e3c1d24f3737b31a7354cc8c6c1d
+
 
 
         }
@@ -46,13 +34,7 @@ namespace aula05
 
             //variável para armazenar os atributos;
             Alunos dadosAlunos = new Alunos();
-<<<<<<< HEAD
 
-
-=======
-           
-            
->>>>>>> ca34c582ca30e3c1d24f3737b31a7354cc8c6c1d
             Console.Write(" Nome: ");
             dadosAlunos.Nome = Console.ReadLine().ToUpper();
 
@@ -68,7 +50,6 @@ namespace aula05
             Console.Write(" Nota do projeto : ");
             dadosAlunos.Nota_trabalho = double.Parse(Console.ReadLine());
 
-<<<<<<< HEAD
             Console.WriteLine(" Dados do aluno: " + dadosAlunos);
             Console.WriteLine(dadosAlunos.Calculo_para_Aprov_Reprov());
 
@@ -77,17 +58,11 @@ namespace aula05
         }
 
         static void Task02() {
-=======
+
             Console.WriteLine(" Dados do aluno: " + dadosAlunos );
             Console.WriteLine( dadosAlunos.Calculo_para_Aprov_Reprov());
 
             Console.ReadLine();
-
-
-
-
-
->>>>>>> ca34c582ca30e3c1d24f3737b31a7354cc8c6c1d
 
             /* 2 ) Escreva uma classe em que cada objeto representa um vôo que acontece em determinada data 
                  e em determinado horário. Cada vôo possui no máximo 100 passageiros, e a classe permite 
@@ -100,8 +75,6 @@ namespace aula05
                  - Cadeira Livre: Retorna o número da próxima cadeira livre;
                  - Ocupa: ocupa determinada cadeira do vôo, cujo número é recebido como parâmetro. 
                    Caso a cadeira esteja ocupada exibe uma mensagem, caso esteja vazia, reserva e exibe uma 
-                   mensagem de confirmação;
-<<<<<<< HEAD
                  - Ver horário: Imprime a data e o horário do vôo.*/
 
 
