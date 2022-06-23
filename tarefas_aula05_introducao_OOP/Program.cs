@@ -96,10 +96,10 @@ namespace tarefas_aula05_introducao_OOP
 
             Console.ReadLine();
             /*
-=======
+
                  - Ver horário: Imprime a data e o horário do vôo.
 
->>>>>>> ca34c582ca30e3c1d24f3737b31a7354cc8c6c1d
+
              3 )  Crie uma classe Calculadora, que possui como métodos a multiplicação, divisão, subtração e 
                  - soma de dois valores e exibe para o usuário.*/
 
