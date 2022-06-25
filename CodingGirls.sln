@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tarefas_aula04_vetores_matr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tarefas_aula05_introducao_OOP", "tarefas_aula05_introducao_OOP\tarefas_aula05_introducao_OOP.csproj", "{FE871835-A7D1-45FB-8F25-0BF6DB57C1B1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "aula_db", "aula_db\aula_db.csproj", "{3D115206-6366-46EC-A1BD-628A90DD6786}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Agenda", "Agenda\Agenda.csproj", "{7AFD5A70-6564-40EF-8A5B-2AE0F01FA3B6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,14 @@ Global
 		{FE871835-A7D1-45FB-8F25-0BF6DB57C1B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FE871835-A7D1-45FB-8F25-0BF6DB57C1B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FE871835-A7D1-45FB-8F25-0BF6DB57C1B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D115206-6366-46EC-A1BD-628A90DD6786}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D115206-6366-46EC-A1BD-628A90DD6786}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D115206-6366-46EC-A1BD-628A90DD6786}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D115206-6366-46EC-A1BD-628A90DD6786}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7AFD5A70-6564-40EF-8A5B-2AE0F01FA3B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7AFD5A70-6564-40EF-8A5B-2AE0F01FA3B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7AFD5A70-6564-40EF-8A5B-2AE0F01FA3B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7AFD5A70-6564-40EF-8A5B-2AE0F01FA3B6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
